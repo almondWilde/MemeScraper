@@ -11,7 +11,7 @@ import instagram_scraper as insta
 #100 posts per Scraping
 tag_scraper = insta.InstagramScraper(login_user='memescraperproject', login_pass='*********', destination='output/', media_types=['image'], interactive = True, quiet=False, maximum = 50, media_metadata=False, log_destination='scraper/logs/', latest=True,tag=True, filename='scraper/tags.txt')
 
-users_scraper = insta.InstagramScraper(login_user='memescraperproject', login_pass='Bobmade1box', destination='output/', media_types=['image'], interactive = True, quiet=False, maximum = 50, media_metadata=True, log_destination='scraper/logs/', latest=True,tag=False, filename='scraper/ig-users.txt')
+users_scraper = insta.InstagramScraper(login_user='memescraperproject', login_pass='**********', destination='output/', media_types=['image'], interactive = True, quiet=False, maximum = 50, media_metadata=True, log_destination='scraper/logs/', latest=True,tag=False, filename='scraper/ig-users.txt')
 
 #bash test block
 with open("../cronjobs_Out.txt", 'a') as cjout:
